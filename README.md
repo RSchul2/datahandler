@@ -6,5 +6,5 @@ hand over any url to an xml document. datahandler will store response in cache f
 and return the data.
 
 how to use:
-#1: include ('datahandler.php')
-#2: call get_data(URL)
+1: include ('datahandler.php')
+2: call get_data(URL)
