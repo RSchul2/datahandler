@@ -5,7 +5,7 @@ function createFilename($targetURL) {
 }
 
 // function to get data
-function get_spread_data($cacheFile,$targetURL)
+function get_data($cacheFile,$targetURL)
 {
 $cacheTime=1000;
 if (is_cached($cacheFile) &&(time() - $cacheTime < filemtime($cacheFile))) 
